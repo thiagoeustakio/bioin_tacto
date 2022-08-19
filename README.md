@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/526697661.svg)](https://zenodo.org/badge/latestdoi/526697661)
+
+
 # BioIn-Tacto: A Compliant Multimodal Tactile Sensing Module
 Hardware X journal paper: [BioIn-Tacto: A Compliant Multimodal Tactile Sensing Module]()
 ## Overview
