@@ -82,7 +82,6 @@ int main(int argc, char **argv) {
         marker.action = visualization_msgs::Marker::ADD;
 
         // Set the pose of the marker.  This is a full 6DOF pose relative to the frame/time specified in the header
-        //TODO: change this to z pointing up
         marker.pose.position.x = 0;
         marker.pose.position.y = 0;
         marker.pose.position.z = 0;
@@ -93,13 +92,12 @@ int main(int argc, char **argv) {
 
 
         // Set the scale of the marker -- 1x1x1 here means 1m on a side
-        //TODO: reduce the diameter of the arrow
         marker.scale.x = (length / 100) / 2;
         marker.scale.y = 0.5 / 2;//*length / 100;
         marker.scale.z = 0.5 / 2;//*length / 100;
 
         // Set the color -- be sure to set alpha to something non-zero!
-        //TODO: change color according to the pressure/temperature
+        //TODO: change color according to the temperature
         marker.color.r = 1.0f;
         marker.color.g = 0.0f;
         marker.color.b = 0.0f;

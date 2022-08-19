@@ -42,7 +42,7 @@ void MPL115A2MUX::begin() {
     @brief  Gets the factory-set coefficients for this particular sensor
 */
 /**************************************************************************/
-void MPL115A2MUX::readCoefficients(short sensorID) { //TODO: array
+void MPL115A2MUX::readCoefficients(short sensorID) {
   readMux(sensorID);
   int16_t a0coeff;
   int16_t b1coeff;
