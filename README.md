@@ -3,6 +3,21 @@
 
 # BioIn-Tacto: A Compliant Multimodal Tactile Sensing Module
 Hardware X journal paper: [BioIn-Tacto: A Compliant Multimodal Tactile Sensing Module]()
+
+How to cite this repository:
+
+    @software{thiago_eustaquio_alves_de_oliveira_2022_7011242,
+      author       = {Thiago Eustaquio Alves de Oliveira and
+                      Vinicius Prado da Fonseca},
+      title        = {thiagoeustakio/bioin\_tacto: HardwareX BioIn-Tacto},
+      month        = aug,
+      year         = 2022,
+      publisher    = {Zenodo},
+      version      = {v1.0.0},
+      doi          = {10.5281/zenodo.7011242},
+      url          = {https://doi.org/10.5281/zenodo.7011242}
+    }
+
 ## Overview
 
 This repository contain firmware, ROS code and CAD files for the multimodal tactile sensor. The packages have been tested under ROS Melodic and Ubuntu 18.04 LTS.
