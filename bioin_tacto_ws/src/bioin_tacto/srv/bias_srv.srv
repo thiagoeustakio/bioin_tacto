@@ -1,0 +1,8 @@
+int16 num_secs
+---
+float32[] b_ax
+float32[] b_ay
+float32[] b_az
+float32[] b_gx
+float32[] b_gy
+float32[] b_gz

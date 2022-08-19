@@ -1,0 +1,18 @@
+<launch>
+    <include file="$(find rosserial_server)/launch/serial.launch" />
+    <node pkg="bioin_tacto" type="middle_imus" name="middle_imus"/>
+    <node pkg="bioin_tacto" type="middle_bias_imus" name="middle_bias_imus"/>
+    <node pkg="bioin_tacto" type="middle_imu_bias_removed" name="middle_imu_bias_removed"/>
+
+	<node pkg="imu_filter_madgwick" type="imu_filter_node" name="imu_filter_madgwick">
+    	<param name="fixed_frame" value="skin" />
+    	<param name="use_mag" value="false" />
+ 	</node>
+	<!-- <node pkg="imu_complementary_filter" type="complementary_filter_node" name="complementary_filter_node" args="_use_mag=true _fixed_frame=skin _publish_tf=true"/> -->
+
+	<node pkg="bioin_tacto" type="middle_baros" name="middle_baros"/>
+	<node pkg="bioin_tacto" type="pressure_viz" name="pressure_viz"/>
+
+	<node pkg="tf" type="static_transform_publisher" name="link2_broadcaster" args="0 0 0 0 0 0 1 skin cell_0 5"/>
+	<node type="rviz" name="rviz" pkg="rviz" args="-d $(find bioin_tacto)/rviz/rviz_config.rviz" />
+</launch>
