@@ -9,7 +9,8 @@ How to cite this repository:
     @software{thiago_eustaquio_alves_de_oliveira_2022_7011242,
       author       = {Thiago Eustaquio Alves de Oliveira and
                       Vinicius Prado da Fonseca},
-      title        = {thiagoeustakio/bioin\_tacto: HardwareX BioIn-Tacto},
+      title        = {{BioIn-Tacto: tactile sensing module design files 
+                       and source code.}},
       month        = aug,
       year         = 2022,
       publisher    = {Zenodo},
