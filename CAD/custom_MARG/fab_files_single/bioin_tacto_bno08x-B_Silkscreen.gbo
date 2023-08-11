@@ -1,0 +1,31 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.6*%
+%TF.CreationDate,2023-08-11T19:23:08-02:30*%
+%TF.ProjectId,bioin_tacto_bno08x,62696f69-6e5f-4746-9163-746f5f626e6f,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Legend,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.6) date 2023-08-11 19:23:08*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,0.850000X0.850000*%
+G04 APERTURE END LIST*
+%LPC*%
+D10*
+%TO.C,J4*%
+X137000000Y-70000000D03*
+%TD*%
+%TO.C,J3*%
+X123000000Y-70000000D03*
+%TD*%
+%TO.C,J2*%
+X130000000Y-77000000D03*
+%TD*%
+%TO.C,J1*%
+X130000000Y-63000000D03*
+%TD*%
+%LPD*%
+M02*
