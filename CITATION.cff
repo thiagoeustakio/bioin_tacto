@@ -1,12 +1,14 @@
-cff-version: 1.1.0
+cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-  - family-names: "Alves de Oliveira"
-    given-names: "Thiago Eustquio"
-    orcid: "https://orcid.org/0000-0002-7164-9064"
-  - family-names: "Prado da Fonseca"
-    given-names: "Vinicius"
-    orcid: "https://orcid.org/0000-0001-5705-3056"
-title: "BioIn-Tacto: tactile sensing module design files and source code."
+- family-names: "Alves de Oliveira"
+  given-names: "Thiago Eustaquio"
+  orcid: "https://orcid.org/0000-0002-7164-9064"
+- family-names: "Prado da Fonseca"
+  given-names: "Vinicius"
+  orcid: "https://orcid.org/0000-0001-5705-3056"
+title: "BioIn-Tacto: tactile sensing module design files and source code"
 version: v1.5.0
+doi: 10.5281/zenodo.7011241
 date-released: 2023-08-12
+url: "https://github.com/thiagoeustakio/bioin_tacto"
