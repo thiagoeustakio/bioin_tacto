@@ -92,7 +92,9 @@ Follow **Desktop-Full Install: (Recommended)** below, also available [here](http
 
 - Copy firmware/lib/**MPL115A2MUX** folder to `<arduino_directory>/libraries`
 - Copy firmware/lib/**LSMMUX** folder to `<arduino_directory>/libraries`
-- Inside the arduino environemnt open the **firmware/bioin-tacto-firmware.ino** file, compile and upload to the teensy
+- Copy firmware/lib/**SparkFun_BNO080_Cortex_Based_IMU** folder to `<arduino_directory>/libraries`
+- Inside the arduino environemnt open the **firmware/bioin-tacto-firmware/LSM9DS0/bioin-tacto-firmware/bioin-tacto-firmware.ino** file, compile and upload to the teensy
+- OR, if you are using the BNO08X Custom MARG, open the **firmware/bioin-tacto-firmware/BNO08X/bioin-tacto-firmware_BNO08X/bioin-tacto-firmware_BNO08X.ino** file in the arduino environemnt, compile and upload to the teensy
 
 This firmware was tested using [teensy 4.0](https://www.pjrc.com/store/teensy40.html)
 
@@ -100,6 +102,8 @@ This firmware was tested using [teensy 4.0](https://www.pjrc.com/store/teensy40.
 Launch the module nodes and visualization
 
     $ roslaunch bioin_tacto cell0.launch
+    OR
+    $ roslaunch bioin_tacto cell0_BNO08X.launch
 
 ## Description
 
