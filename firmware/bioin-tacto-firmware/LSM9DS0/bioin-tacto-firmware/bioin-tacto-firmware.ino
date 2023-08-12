@@ -64,7 +64,7 @@ void setup()
   dof.setMagScale(dof.M_SCALE_2GS);
   dof.setMagODR(dof.M_ODR_125);
 
-  // Configure serial and ros node baud rate
+  // Configure serial and ros node baud
   Serial.begin(250000);
   nh.getHardware()->setBaud(250000);
 

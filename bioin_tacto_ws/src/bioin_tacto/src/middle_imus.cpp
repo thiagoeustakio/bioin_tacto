@@ -22,9 +22,9 @@ void imuReadCallback(const bioin_tacto::raw_imuConstPtr &msg) {
             tmm_imus.imus[msg->sensor_id].ax = msg->ax * 9.80665; //g to m/s2
             tmm_imus.imus[msg->sensor_id].ay = msg->ay * 9.80665;
             tmm_imus.imus[msg->sensor_id].az = msg->az * 9.80665;
-            tmm_imus.imus[msg->sensor_id].mx = msg->mx;
-            tmm_imus.imus[msg->sensor_id].my = msg->my;
-            tmm_imus.imus[msg->sensor_id].mz = msg->mz;
+            tmm_imus.imus[msg->sensor_id].mx = msg->mx;// * 0.00001;
+            tmm_imus.imus[msg->sensor_id].my = msg->my;// * 0.00001;
+            tmm_imus.imus[msg->sensor_id].mz = msg->mz;// * 0.00001;
         }
 
     pub.publish(tmm_imus);

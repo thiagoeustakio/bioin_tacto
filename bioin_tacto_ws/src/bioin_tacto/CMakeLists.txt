@@ -107,6 +107,7 @@ CATKIN_DEPENDS message_runtime
 ## Declare a cpp executable
 add_executable(middle_baros src/middle_baros.cpp)
 add_executable(middle_imus src/middle_imus.cpp)
+add_executable(middle_imus_BNO08X src/middle_imus_BNO08X.cpp)
 add_executable(middle_bias_imus src/middle_bias_imus.cpp)
 add_executable(middle_imu_bias_removed src/middle_imu_bias_removed.cpp)
 add_executable(pressure_viz src/pressure_viz.cpp)
@@ -115,6 +116,7 @@ add_executable(pressure_viz src/pressure_viz.cpp)
 ## as an example, message headers may need to be generated before nodes
 add_dependencies(middle_baros bioin_tacto_generate_messages_cpp)
 add_dependencies(middle_imus bioin_tacto_generate_messages_cpp)
+add_dependencies(middle_imus_BNO08X bioin_tacto_generate_messages_cpp)
 add_dependencies(middle_bias_imus bioin_tacto_generate_messages_cpp)
 add_dependencies(middle_imu_bias_removed bioin_tacto_generate_messages_cpp)
 add_dependencies(pressure_viz bioin_tacto_generate_messages_cpp)
@@ -122,6 +124,7 @@ add_dependencies(pressure_viz bioin_tacto_generate_messages_cpp)
 ## Specify libraries to link a library or executable target against
 target_link_libraries(middle_baros ${catkin_LIBRARIES} )
 target_link_libraries(middle_imus ${catkin_LIBRARIES} )
+target_link_libraries(middle_imus_BNO08X ${catkin_LIBRARIES} )
 target_link_libraries(middle_bias_imus ${catkin_LIBRARIES} )
 target_link_libraries(middle_imu_bias_removed ${catkin_LIBRARIES})
 target_link_libraries(pressure_viz ${catkin_LIBRARIES})
