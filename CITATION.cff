@@ -7,6 +7,6 @@ authors:
 - family-names: "Prado da Fonseca"
   given-names: "Vinicius"
   orcid: "https://orcid.org/0000-0001-5705-3056"
-title: BioIn-Tacto: tactile sensing module design files and source code.
+title: thiagoeustakio/bioin_tacto: BioIn-Tacto: tactile sensing module design files and source code.
 version: v1.5.0
 date-released: 2023-08-12
